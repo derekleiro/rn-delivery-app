@@ -1,0 +1,51 @@
+#main-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+#left-container {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #D8E4F0;
+}
+
+#left-container img{
+    width: 300px;
+    height: auto;
+}
+
+#right-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#input-form {
+  margin: 0 auto;
+}
+
+.input-container input {
+  outline: none;
+  font-family: "Poppins", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e1def4;
+  width: 100%;
+  border-radius: 15px;
+  border: 0;
+  margin: 5px 0;
+  padding: 15px 25px;
+  border-radius: 15px;
+}
+
+.input-container {
+  margin: 10px 0;
+}
+
+#input-form{
+  width: 80%;
+
+}

@@ -1,0 +1,45 @@
+#container{
+    width: 60%;
+    margin: 50px auto;
+}
+
+#bar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#adminh1{
+    color: black;
+}
+
+#logout{
+    color: #ff0090;
+}
+
+#data-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    min-width: 200px;
+    color: black;
+    background-color: #e1def4;
+    border-radius: 35px;
+    margin: 10px;
+    padding: 25px;
+}
+
+.card-title{
+    font-size: 18px;
+}
+
+.card-data{
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.card-description{
+    margin-top: 10px;
+}
