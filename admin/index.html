@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./css/shared.css" />
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    <title>Reports</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="bar-container">
+        <h1 id="adminh1">Admin</h1>
+        <h3 id="logout" onclick="handleLogout()">Log out</h3>
+      </div>
+      <h1>Reports</h1>
+      <div id="data-cards">
+        <div class="card">
+          <div class="card-title">Revenue</div>
+          <div class="card-data" id="revenue"></div>
+          <div class="card-description">
+            Total revenue made assuming 20% commission
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title">Orders</div>
+          <div class="card-data" id="orders"></div>
+          <div class="card-description">
+            Total number of orders made by users
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title">Providers</div>
+          <div class="card-data" id="providers"></div>
+          <div class="card-description">
+            Number of providers on the platform
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title">Users</div>
+          <div class="card-data" id="users"></div>
+          <div class="card-description">Number of users on the platform</div>
+        </div>
+        <div class="card">
+          <div class="card-title">Inventory</div>
+          <div class="card-data" id="inventory"></div>
+          <div class="card-description">
+            Total number of items in providers inventory
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./css/login-register.css" />
+    <link rel="stylesheet" type="text/css" href="./css/shared.css" />
+    <title>Admin - Register</title>
+  </head>
+  <body>
+    <div id="main-container">
+      <div id="left-container">
+        <img src="./assets/patterns.png" alt="Nice patterns" />
+      </div>
+      <div id="right-container">
+        <div id="input-form">
+          <div class="input-container">
+            <label>Full name</label><br />
+            <input
+              type="text"
+              id="fullname"
+              name="fullname"
+              placeholder="e.g. John Doe"
+            />
+          </div>
+          <div class="input-container">
+            <label>Email</label><br />
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="e.g. johndoe@gmail.com"
+            />
+          </div>
+          <div class="input-container">
+            <label>Password</label><br />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Must be atleast 6 characters long"
+            />
+          </div>
+          <a id="bottomlink" href="./login.html" target="_self"
+            >I already have an admin account</a
+          ><br />
+          <button onclick="handleRegister()">Register</button>
+        </div>
+        <div id="errorbox"></div>
+      </div>
+    </div>
+    <script src="./js/register.js"></script>
+  </body>
+</html>
