@@ -363,7 +363,9 @@ type fetchProfileProps = {
 export const fetchProfile = async (props: fetchProfileProps) => {
   const { dispatch, setData } = props;
   AsyncStorage.getItem("@user")
-    .then((value: any) => JSON.parse(value))
+    .then((value: any) => {
+      return JSON.parse(value)
+    })
     .then(async (user: any) => {
       try {
         const res = await fetch(
