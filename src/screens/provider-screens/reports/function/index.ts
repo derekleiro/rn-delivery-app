@@ -56,8 +56,8 @@ export const fetchOrders = async (props: fetchOrdersType) => {
         const JsonRes = await res.json();
 
         if (res.ok) {
-          const numOfOrders = JsonRes.resp.length;
-          const moneyMade = JsonRes.resp.reduce(
+          const numOfOrders = JsonRes.resp.result.length;
+          const moneyMade = JsonRes.resp.result.reduce(
             (acc: number, res: any) => acc + res.orderTotal, 0
           );
 
