@@ -1,5 +1,5 @@
 # rn-delivery-app
-rn-delivery-app is a native mobile application made with React Native using TypeScript. It's a fullstack system
+rn-delivery-app (Maji) is a native mobile application made with React Native using TypeScript. It's a fullstack system
 The system uses a 3-tier architecture, with 3 users:
 - The customer
 - The provider/seller
